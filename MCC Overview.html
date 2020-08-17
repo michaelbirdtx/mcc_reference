@@ -1,0 +1,893 @@
+<!DOCTYPE html>  
+<html lang="US">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>MCC Overview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style id="mkstylesheet">
+#wrapper{color:#24292e;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';margin:0;text-size-adjust:100%}#wrapper aside,#wrapper article,#wrapper details,#wrapper figcaption,#wrapper figure,#wrapper footer,#wrapper header,#wrapper hgroup,#wrapper main,#wrapper menu,#wrapper nav,#wrapper section,#wrapper summary{display:block}#wrapper audio,#wrapper canvas,#wrapper progress,#wrapper video{display:inline-block;vertical-align:baseline}#wrapper audio:not([controls]){display:none;height:0}#wrapper [hidden],#wrapper template{display:none}#wrapper a{background-color:transparent}#wrapper a:active,#wrapper a:hover{outline:0}#wrapper abbr[title]{border-bottom:1px dotted}#wrapper b,#wrapper strong{font-weight:bold}#wrapper dfn{font-style:italic}#wrapper mark{background:#ff0;color:#000}#wrapper small{font-size:80%}#wrapper sub,#wrapper sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}#wrapper sup{top:-.5em}#wrapper sub{bottom:-.25em}#wrapper img{border:0}#wrapper svg:not(:root){overflow:hidden}#wrapper figure{margin:1em 40px}#wrapper hr{box-sizing:content-box;height:0}#wrapper pre{overflow:auto}#wrapper code,#wrapper kbd,#wrapper pre,#wrapper samp{font-family:monospace, monospace;font-size:1em}#wrapper button,#wrapper input,#wrapper optgroup,#wrapper select,#wrapper textarea{color:inherit;font:inherit;margin:0}#wrapper button{overflow:visible}#wrapper button,#wrapper select{text-transform:none}#wrapper button,#wrapper input[type='button'],#wrapper input[type='reset'],#wrapper input[type='submit']{-webkit-appearance:button;cursor:pointer}#wrapper button[disabled]{cursor:default}#wrapper button::-moz-focus-inner,#wrapper input::-moz-focus-inner{border:0;padding:0}#wrapper input{line-height:normal}#wrapper input[type='checkbox'],#wrapper input[type='radio']{box-sizing:border-box;padding:0}#wrapper input[type='number']::-webkit-inner-spin-button,#wrapper input[type='number']::-webkit-outer-spin-button{height:auto}#wrapper input[type='search']{-webkit-appearance:textfield;box-sizing:content-box}#wrapper input[type='search']::-webkit-search-cancel-button,#wrapper input[type='search']::-webkit-search-decoration{-webkit-appearance:none}#wrapper fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}#wrapper legend{border:0;padding:0}#wrapper textarea{overflow:auto}#wrapper optgroup{font-weight:bold}#wrapper table{border-collapse:collapse;border-spacing:0}#wrapper *{box-sizing:border-box}#wrapper input,#wrapper select,#wrapper textarea,#wrapper button{font:14px/21px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'}#wrapper body{font:14px/21px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';color:#333;background-color:#fff}#wrapper a{color:#4078c0;text-decoration:none}#wrapper a:hover,#wrapper a:active{text-decoration:underline}#wrapper hr,#wrapper .rule{background:transparent;border:0;border-bottom:1px solid #ddd;height:0;margin:15px 0;overflow:hidden}#wrapper hr:before,#wrapper .rule:before{content:'';display:table}#wrapper hr:after,#wrapper .rule:after{clear:both;content:'';display:table}#wrapper h1,#wrapper h2,#wrapper h3,#wrapper h4,#wrapper h5,#wrapper h6{font-weight:600;line-height:1.1;margin:24px 0 16px;padding:0}#wrapper h1,#wrapper h2{border-bottom:1px solid #eaecef}#wrapper h1{font-size:32px;line-height:40px;margin:0 0 16px;padding:0 0 9.600000381469727px}#wrapper h2{font-size:24px;line-height:30px;padding:0 0 7.199999809265137px}#wrapper h3{font-size:20px;line-height:25px}#wrapper h4{font-size:16px;line-height:20px;margin:24px 0 16px;padding:0}#wrapper h5{font-size:14px;line-height:17px}#wrapper h6{font-size:13.600000381469727px;line-height:17px}#wrapper small{font-size:90%}#wrapper blockquote{margin:0}#wrapper ol ol,#wrapper ul ol{list-style-type:lower-roman}#wrapper ul ul ol,#wrapper ul ol ol,#wrapper ol ul ol,#wrapper ol ol ol{list-style-type:lower-alpha}#wrapper dd{margin-left:0}#wrapper tt,#wrapper code,#wrapper pre{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace}#wrapper pre{background-color:#f6f8fa;border-radius:3px;font-size:85%;line-height:1.45;overflow:auto;padding:16px;margin-top:0;margin-bottom:0}#wrapper{-webkit-font-smoothing:antialiased;background:#fff;border:solid 1px #dddddd !important;border-radius:3px;color:#333;font:14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';line-height:1.6;padding:3px}p{margin:1em 0}a{color:#4183c4;text-decoration:none}#wrapper{background-color:#fff;font-size:16px;line-height:1.6;margin:15px;padding:30px}#wrapper>*:first-child{margin-top:0 !important}#wrapper>*:last-child{margin-bottom:0 !important}@media screen{#wrapper{border:solid 1px #ddd}}p,blockquote,ul,ol,dl,table,pre{margin-bottom:16px}hr{height:4px;padding:0;margin:16px 0;background-color:#e7e7e7;border:0 none}ul,ol{padding-left:2.8rem}ul.no-list,ol.no-list{padding:0;list-style-type:none}ul ul,ul ol{margin-top:0;margin-bottom:0}ol ol,ol ul{margin-top:0;margin-bottom:0}li>p{margin-bottom:0}li p+p{margin-top:16px}dl{padding:0}dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}dl dd{padding:0 16px;margin-bottom:16px}blockquote{padding:0 15px;margin-left:0;color:#777;border-left:4px solid #ddd}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}table{display:block;width:100%;overflow:auto}table th{font-weight:700;padding:6px 13px;border:1px solid #ddd}table td{padding:6px 13px;border:1px solid #ddd}table tr{background-color:#fff;border-top:1px solid #ccc}table tr:nth-child(2n){background-color:#f8f8f8}img{max-width:100%;-moz-box-sizing:border-box;box-sizing:border-box}span.frame{display:block;overflow:hidden}span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}span.frame span img{display:block;float:left}span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}span.align-center{display:block;overflow:hidden;clear:both}span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}span.align-center span img{margin:0 auto;text-align:center}span.align-right{display:block;overflow:hidden;clear:both}span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}span.align-right span img{margin:0;text-align:right}span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}span.float-left span{margin:13px 0 0}span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}code,tt{background-color:rgba(0,0,0,0.04);border-radius:3px;font-size:85%;margin:0;padding-bottom:.2em;padding-top:.2em;padding:0}code::before,code::after{content:'\00a0';letter-spacing:-.2em}tt:before,tt:after{content:'\00a0';letter-spacing:-.2em}code br,tt br{display:none}del code{text-decoration:inherit;vertical-align:text-top}pre>code{padding:0;margin:0;font-size:100%;white-space:pre;background:transparent;border:0}.highlight{margin-bottom:16px}.highlight pre{padding:16px;margin-bottom:0;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}pre{padding:16px;margin-bottom:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px;word-wrap:normal}pre code,pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}pre code:before,pre code:after{content:normal}pre tt:before,pre tt:after{content:normal}.poetry pre{font-family:Georgia, Garamond, serif !important;font-style:italic;font-size:110% !important;line-height:1.6em;display:block;margin-left:1em}.poetry pre code{font-family:Georgia, Garamond, serif !important;word-break:break-all;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;white-space:pre-wrap}sup,sub,a.footnote{font-size:1.4ex;height:0;line-height:1;vertical-align:super;position:relative}sub{vertical-align:sub;top:-1px}@media print{body{background:#fff}img,table,figure{page-break-inside:avoid}#wrapper{background:#fff;border:none !important;font-size:12px}pre code{overflow:visible}}@media screen{body.inverted{border-color:#555;box-shadow:none;color:#eee !important}.inverted #wrapper,.inverted hr,.inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt,.inverted blockquote{border-color:#555;box-shadow:none;color:#eee !important}.inverted td,.inverted th{background:#333}.inverted pre,.inverted code,.inverted tt{background:#eeeeee !important;color:#111}.inverted h2{border-color:#555555}.inverted hr{border-color:#777;border-width:1px !important}::selection{background:rgba(157,193,200,0.5)}h1::selection{background-color:rgba(45,156,208,0.3)}h2::selection{background-color:rgba(90,182,224,0.3)}h3::selection,h4::selection,h5::selection,h6::selection,li::selection,ol::selection{background-color:rgba(133,201,232,0.3)}code::selection{background-color:rgba(0,0,0,0.7);color:#eeeeee}code span::selection{background-color:rgba(0,0,0,0.7) !important;color:#eeeeee !important}a::selection{background-color:rgba(255,230,102,0.2)}.inverted a::selection{background-color:rgba(255,230,102,0.6)}td::selection,th::selection,caption::selection{background-color:rgba(180,237,95,0.5)}.inverted{background:#0b2531;background:#252a2a}.inverted #wrapper{background:#252a2a}.inverted a{color:#acd1d5}}.highlight{background:#fff}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k,.highlight .o{font-weight:700}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:700}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:700;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:700}.highlight .gu{color:purple;font-weight:700}.highlight .gt{color:#a00}.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr{font-weight:700}.highlight .kt{color:#458;font-weight:700}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .n{color:#333}.highlight .na{color:teal}.highlight .nb{color:#0086b3}.highlight .nc{color:#458;font-weight:700}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne,.highlight .nf{color:#900;font-weight:700}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:700}.highlight .w{color:#bbb}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#099}.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc,.highlight .vg,.highlight .vi{color:teal}.highlight .il{color:#099}.highlight .gc{color:#999;background-color:#EAF2F5}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:blue}.type-csharp .highlight .nf{color:#000;font-weight:400}.type-csharp .highlight .nc{color:#2b91af}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#a31515}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:#00F}.type-csharp .highlight .nf{color:#000;font-weight:normal}.type-csharp .highlight .nc{color:#2B91AF}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#A31515}body.dark #wrapper{background:transparent !important;box-shadow:none !important}kbd{background-color:#fafbfc;border:1px solid #d1d5da;border-radius:3px;box-shadow:inset 0 -1px 0 #d1d5da;color:#444d56;display:inline-block;font:11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.inverted kbd{background-color:#666;color:#fff}
+#mkreplaced-toc{list-style-position:inside;padding:0;margin:0 0 0 1rem;list-style-type:none}#mkreplaced-toc li::before{content:''}#mkreplaced-toc li{font-size:1rem;line-height:1.25;font-weight:normal}#mkreplaced-toc li ul{font-size:1.3rem;font-weight:300;padding:.5rem 0;margin:0 0 0 1rem}#mkreplaced-toc li.missing{list-style-type:none !important}#mkreplaced-toc.max-1 ul,#mkreplaced-toc.max1 ul{display:none}#mkreplaced-toc.max-2 ul ul,#mkreplaced-toc.max2 ul ul{display:none}#mkreplaced-toc.max-3 ul ul ul,#mkreplaced-toc.max3 ul ul ul{display:none}#mkreplaced-toc.max-4 ul ul ul ul,#mkreplaced-toc.max4 ul ul ul ul{display:none}#mkreplaced-toc.max-5 ul ul ul ul ul,#mkreplaced-toc.max5 ul ul ul ul ul{display:none}.mk-rtl{direction:rtl;text-align:right}.mkprinting,.mkprinting #wrapper{height:auto;margin-bottom:0;padding-bottom:0}.hideProgress #generated-toc,.hideProgress #firstdiff,.hideProgress #toc-title,.hideProgress #mkdocumentprogress,.hideProgress #mkincludechart,.hideProgress #mkprogressbar1,.hideProgress #mkprogressbar2,.hideProgress b.bookmark,.hideProgress .mkscrollmeter,.hideProgress #alllinks,.hideProgress #criticnav,.hideProgress .popup,.hideProgress #progressindicator,.hideProgress #mkautoscroll,.mkprinting #generated-toc,.mkprinting #firstdiff,.mkprinting #toc-title,.mkprinting #mkdocumentprogress,.mkprinting #mkincludechart,.mkprinting #mkprogressbar1,.mkprinting #mkprogressbar2,.mkprinting b.bookmark,.mkprinting .mkscrollmeter,.mkprinting #alllinks,.mkprinting #criticnav,.mkprinting .popup,.mkprinting #progressindicator,.mkprinting #mkautoscroll{display:none !important}.hideProgress .mkstyledtag,.mkprinting .mkstyledtag{display:none}.mkprinting.mkshowcomments .mkstyledtag{display:inline;background:#ccc;padding:3px 9px;border-radius:20px;font-size:1}@media print{body{background:white;line-height:1.4}html,body,#wrapper{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;-webkit-perspective:none !important;-webkit-text-size-adjust:none;border:0;box-sizing:border-box;float:none;margin:0;max-width:100%;padding:0;margin-top:0;width:auto}.critic #wrapper mark.crit{background-color:#fffd38 !important;text-decoration:none;color:#000}h1,h2,h3,h4,h5,h6{page-break-after:avoid}p,h2,h3{orphans:3;widows:3}section{page-break-before:avoid}pre>code{white-space:pre;word-break:break-word}#generated-toc,#firstdiff,#toc-title,#mkdocumentprogress,#mkincludechart,#mkprogressbar1,#mkprogressbar2,.mkscrollmeter,#alllinks,.popup{display:none !important}.suppressprintlinks a{border-bottom:none !important;color:inherit !important;cursor:default !important;text-decoration:none !important}.hrefafterlinktext #wrapper a:link:after,.hrefafterlinktext #wrapper a:visited:after{content:" (" attr(href) ") ";font-size:90%;opacity:.9}.nocodebreak pre{page-break-inside:avoid}img,table,figure{page-break-inside:avoid}.breakfootnotes .footnotes{page-break-before:always}.breakfootnotes .footnotes hr{display:none}#mktoctitle{display:block}#print-title{border-bottom:solid 1px #666;display:block}#wrapper pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{display:block}.task-list .task-list-item{list-style-type:none !important}.task-list .gh-complete.task-list-item .task-list-item-checkbox:before{background:#838387;content:'\2713'}.task-list .task-list-item-checkbox{-webkit-appearance:none;position:relative}.task-list .task-list-item-checkbox:before{border:solid 1px #aaa;border-radius:2px;color:white;content:' ';display:block;font-weight:bold;height:1em;left:-20px;line-height:1;position:absolute;text-align:center;top:-.75em;width:1em}}
+#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc,#wrapper #generated-toc-clone ul,#wrapper #mkreplaced-toc ul{list-style-position:inside}#wrapper #generated-toc-clone li.missing,#wrapper #mkreplaced-toc li.missing{list-style-type: none!important}#wrapper #generated-toc-clone ul,#wrapper #mkreplaced-toc ul{list-style-type: upper-roman}#wrapper #generated-toc-clone>ul>li>ul,#wrapper #mkreplaced-toc>li>ul {list-style-type: decimal}#wrapper #generated-toc-clone>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul{list-style-type: decimal-leading-zero}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul{list-style-type: lower-greek}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul{list-style-type: disc}#wrapper #generated-toc-clone>ul>li>ul>li>ul>li>ul>li>ul>li>ul,#wrapper #mkreplaced-toc>li>ul>li>ul>li>ul>li>ul>li>ul{list-style-type: square}#wrapper #generated-toc-clone,#wrapper #mkreplaced-toc{}
+</style>
+
+<style id="mkprintstyles">@media print{#wrapper #generated-toc-clone,#generated-toc{display:none!important}
+html,body,#wrapper{font-size:10pt!important}
+}
+</style>
+
+
+  </head>
+<body class="normal firstload">
+  <div id="wrapper">
+<h1 id="mutantcrawlclassics%3Aoverview">MUTANT CRAWL CLASSICS: OVERVIEW</h1>
+
+<h2 id="thesetting%3Aterraa.d.">THE SETTING: TERRA A.D.</h2>
+
+<p>The characters in the Mutant Crawl Classics RPG live in a primitive world dominated by the bizarre side-effects of an ancient holocaust known only as the Great Disaster. Millennia after this cataclysmic extinction event, the world — now known as Terra A.D. (After Disaster) — has regrown into a lush tropical wilderness. The lifeforms that survive and flourish in Terra A.D. did so because natural selection rewarded their ancestors for possessing either very plastic or very hardy genomes. Plants and animals with wild and unstable mutations permeate the ecosystem and the food chain. Though some species have settled down into relatively stable body plans and are capable of reproducing true to form, there is still the chance in any given birth of a new mutation arising.</p>
+
+<p>Of these mutations, the advent of intelligence and sentience are by far the most pervasive. Never before in the history of the world has it been home to so many competing sentient species. Many animal and plant species now possess rudimentary reasoning abilities, and more than a few walk upright, communicate with each other, and make use of tools. These sentient species are collectively known as manimals and plantients.</p>
+
+<p>What few members of mankind that survived the Great Disaster meanwhile descended into barbarism and savagery, and eventually split into two separate species: pure strain humans (PSH) and mutants. Rather than surviving the Great Disaster by virtue of constantly mutating genetics, the genome of pure strain humans became hardened against radiation and other mutagenic environmental effects, leaving them an especially hardy and intelligent race.</p>
+
+<h2 id="theancientones">THE ANCIENT ONES</h2>
+
+<p>It is generally accepted among the denizens of Terra A.D. that there once existed a legendary race of unknown type that ruled and ordered the world with an arcane force known as technology. While nearly every sentient species makes an apocryphal claim to be directly descendant of these protean techno-wizards of millennia past, the evidence for their existence is inarguable. Though long since passed out of all memory, the imperishable artifacts and ruined haunts of the Ancient Ones were manufactured of such incomprehensibly durable substances and with such super scientific know-how as to be virtually immune to the ravages of passing centuries. Many such devices and places may yet be discovered relatively intact by those brave enough to plumb the taboo lands of Terra A.D.</p>
+
+<h2 id="terraa.d.climateandecology">TERRA A.D. CLIMATE AND ECOLOGY</h2>
+
+<p>The world of Terra A.D. is that of tropical hothouse climate from pole-to-pole. The sun is red and bloated, and the skies are an emerald blue-green. Dense jungles and mile-tall trees dominate the planet. This is a world still struggling to heal itself fully from a disaster now many millennia in the past, and the planet seems to have chosen to do so by undergoing an explosive evolutionary radiation of its native life forms. Some wounded lands still persist – the radioactive glow deserts and the battered and volcanic crater countries – but where there is life, there is an overabundance of it. Mega-fauna are the rule rather than the exception.</p>
+
+<p>The weather systems of Terra A.D. are generally hot and often rainy, with more typical thunderstorms punctuated by occasional glow storms and meteor showers. When the skies are clear, one can clearly see that there is no moon in the sky of Terra A.D., only an omnipresent “Sky Arc” — a graceful banded curve of blue-white light that visibly glows both day and night. Is it the crushed remnants of a shattered moon, or an accretion disk from which a moon has not yet formed? None can say, but legend suggests that the Ancient Ones quite possibly went there to live when their terrestrial world was destroyed. Small moving lights can still be seen in the night time skies that are thought to be the chariots of those long lost gods.</p>
+
+<h2 id="terraa.d.inhabitantsandcreatures">TERRA A.D. INHABITANTS AND CREATURES</h2>
+
+<p>The four dominant types of sentient species in Terra A.D. (pure strain humans, mutants, manimals, and plantients) are only so because they benefit from the organizing principles of a rudimentary Stone Age level of civilization. Even a primitive tribal social organization allows them to compete successfully in a world in which a great number of mutated plants and animals also possess sentience.</p>
+
+<p>There are also the rare few among these sentient species that have joined together in secret societies called Archaic Alignments. Often being comprised of those rare individuals who plunder and master the artifacts of the Ancient Ones as an advocation, Archaic Alignments sometimes possess more advanced, if esoteric, knowledge and technologies.</p>
+
+<p>Rarest of all, the world of Terra A.D. is yet home to a small number of artificial lifeforms that remain from the pre-disaster era. These beings include androids, robots, holograms, and AIs (Artificial Intelligences). These beings range in intelligence and abilities from the simple minded and narrowly skilled, to the highly intelligent and fully sentient, to those that are considered patrons and gods. Sometimes simply referred to as “smart metal,” all of these beings are considered dangerous and unpredictable. With the right know-how and artifacts, some may be tamed and retained as servants, while the greatest of them may decide in turn that you are just barely worthy to become worshipers of their ancient might and glory.</p>
+
+<h2 id="thecoremechanic">THE CORE MECHANIC</h2>
+
+<ul>
+<li>The core mechanic in the Mutant Crawl Classics Role Playing Game is the d20 roll. You will frequently be asked to roll 1d20 and add or subtract modifiers. The goal is to roll high and beat a Difficulty Class, or DC. Sometimes the DC will have specific terms, such as an Armor Class, or AC, which is a combat variety of a DC. A higher DC is more difficult to beat, and a better-armored creature has a higher AC.</li>
+<li>If you roll equal to or higher than the DC (or AC), you succeed. Otherwise, you fail.</li>
+<li>A roll of 1 is an automatic miss and often results in a fumbling failure of some kind.</li>
+<li>A roll of 20 is an automatic hit and often results in a critical success of some kind.</li>
+<li>Occasionally a character may roll a die other than 1d20 when acting. 1d16, 1d24, and even 1d30 are used for weaker or stronger character classes.</li>
+</ul>
+
+<h2 id="charactercreation">CHARACTER CREATION</h2>
+
+<p>Game play in the Mutant Crawl Classics Role Playing Game starts at 0 level: untrained sub-adult tribesmen. Most of these characters will die while undergoing the Rite of Passage. We highly suggest each player roll up multiple 0-level characters – at least three, possibly more. Don’t get attached. Characters that survive their Rite of Passage then become recognized as adult members of their tribe, choose classes, and join a Seeker team.</p>
+
+<p>This game utilizes polyhedrons of unusual shapes. Character creation in MCC RPG follows these steps:</p>
+
+<ol>
+<li>Roll ability scores.</li>
+<li>Adjust ability score modifiers, attack scores, and saving throws (see Table 1&#8211;1).</li>
+<li>Roll 0-Level hit points using 1d4.</li>
+<li>Roll for beginning profession and equipment (see Table 1&#8211;2)</li>
+<li>Roll Birth Sign (see Table 1&#8211;3).</li>
+<li>Roll twice for additional beginning equipment (see Table 1&#8211;4). Additional equipment may also be obtained by barter.</li>
+<li>Roll genotype (see Table 1&#8211;5).</li>
+<li>Determine genotype appearance or sub-type, if any (see Tables 1&#8211;6 through 1&#8211;8).</li>
+<li>Choose an Archaic Alignment.</li>
+</ol>
+
+<h3 id="abilityscores">ABILITY SCORES</h3>
+
+<p>Roll 3d6 in order for these abilities: Strength, Agility, Stamina, Personality, Intelligence, and Luck. Adjust ability-derived modifiers as required (see Table 1&#8211;1). Though the normal range of ability scores is 3&#8211;18, mutations may increase an ability score to a maximum value of 24.</p>
+
+<p><strong>Strength</strong>: Physical power for lifting, hurling, cutting, and dragging. Your Strength modifier affects melee attack and damage rolls.</p>
+
+<p><strong>Agility</strong>: Balance, grace, and fine motor skills, whether in the hands or the feet. Your Agility modifier affects Armor Class, missile fire attack rolls, initiative rolls, and Reflex saving throws.</p>
+
+<p><strong>Stamina</strong>: Endurance, resistance to pain, disease, and poison. Your Stamina modifier affects hit points (even at level 0) and Fortitude saving throws.</p>
+
+<p><strong>Personality</strong>: Charm, strength of will, persuasive talent.</p>
+
+<p><strong>Intelligence</strong>: Ability to discern information, retain knowl- edge, and assess complex situations.</p>
+
+<p><strong>Luck</strong>: “Right place, right time;” favor of the gods, good fortune, or hard-to-define talent.</p>
+
+<h4 id="table1-1%3Aabilityscoremodifiers">Table 1&#8211;1: Ability Score Modifiers</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">Ability Score</th>
+	<th style="text-align:left;">Modifier</th>
+	<th style="text-align:left;">Max Tech Level</th>
+	<th style="text-align:left;">Max Wetware Programs</th>
+	<th style="text-align:left;">Max Wetware Program Level</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">3</td>
+	<td style="text-align:left;">&#8211;3</td>
+	<td style="text-align:left;">No artifact check</td>
+	<td style="text-align:left;">No program use</td>
+	<td style="text-align:left;">No programs accessible</td>
+</tr>
+<tr>
+	<td style="text-align:left;">4</td>
+	<td style="text-align:left;">&#8211;2</td>
+	<td style="text-align:left;">1</td>
+	<td style="text-align:left;">&#8211;2 programs</td>
+	<td style="text-align:left;">1</td>
+</tr>
+<tr>
+	<td style="text-align:left;">5</td>
+	<td style="text-align:left;">&#8211;2</td>
+	<td style="text-align:left;">1</td>
+	<td style="text-align:left;">&#8211;2 programs</td>
+	<td style="text-align:left;">1</td>
+</tr>
+<tr>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">&#8211;1</td>
+	<td style="text-align:left;">1</td>
+	<td style="text-align:left;">&#8211;1 program</td>
+	<td style="text-align:left;">1</td>
+</tr>
+<tr>
+	<td style="text-align:left;">7</td>
+	<td style="text-align:left;">&#8211;1</td>
+	<td style="text-align:left;">1</td>
+	<td style="text-align:left;">&#8211;1 program</td>
+	<td style="text-align:left;">1</td>
+</tr>
+<tr>
+	<td style="text-align:left;">8</td>
+	<td style="text-align:left;">&#8211;1</td>
+	<td style="text-align:left;">2</td>
+	<td style="text-align:left;">No adjustment</td>
+	<td style="text-align:left;">2</td>
+</tr>
+<tr>
+	<td style="text-align:left;">9</td>
+	<td style="text-align:left;">0</td>
+	<td style="text-align:left;">2</td>
+	<td style="text-align:left;">No adjustment</td>
+	<td style="text-align:left;">2</td>
+</tr>
+<tr>
+	<td style="text-align:left;">10</td>
+	<td style="text-align:left;">0</td>
+	<td style="text-align:left;">3</td>
+	<td style="text-align:left;">No adjustment</td>
+	<td style="text-align:left;">3</td>
+</tr>
+<tr>
+	<td style="text-align:left;">11</td>
+	<td style="text-align:left;">0</td>
+	<td style="text-align:left;">3</td>
+	<td style="text-align:left;">No adjustment</td>
+	<td style="text-align:left;">3</td>
+</tr>
+<tr>
+	<td style="text-align:left;">12</td>
+	<td style="text-align:left;">0</td>
+	<td style="text-align:left;">4</td>
+	<td style="text-align:left;">No adjustment</td>
+	<td style="text-align:left;">4</td>
+</tr>
+<tr>
+	<td style="text-align:left;">13</td>
+	<td style="text-align:left;">+1</td>
+	<td style="text-align:left;">4</td>
+	<td style="text-align:left;">No adjustment</td>
+	<td style="text-align:left;">4</td>
+</tr>
+<tr>
+	<td style="text-align:left;">14</td>
+	<td style="text-align:left;">+1</td>
+	<td style="text-align:left;">4</td>
+	<td style="text-align:left;">+1 program</td>
+	<td style="text-align:left;">4</td>
+</tr>
+<tr>
+	<td style="text-align:left;">15</td>
+	<td style="text-align:left;">+1</td>
+	<td style="text-align:left;">5</td>
+	<td style="text-align:left;">+1 program</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">16</td>
+	<td style="text-align:left;">+2</td>
+	<td style="text-align:left;">5</td>
+	<td style="text-align:left;">+1 program</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">17</td>
+	<td style="text-align:left;">+2</td>
+	<td style="text-align:left;">5</td>
+	<td style="text-align:left;">+2 programs</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">18</td>
+	<td style="text-align:left;">+3</td>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">+2 programs</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">19</td>
+	<td style="text-align:left;">+3</td>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">+3 programs</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">20</td>
+	<td style="text-align:left;">+4</td>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">+3 programs</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">21</td>
+	<td style="text-align:left;">+4</td>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">+4 programs</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">22</td>
+	<td style="text-align:left;">+5</td>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">+4 programs</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">23</td>
+	<td style="text-align:left;">+5</td>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">+5 programs</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">24</td>
+	<td style="text-align:left;">+6</td>
+	<td style="text-align:left;">7</td>
+	<td style="text-align:left;">+6 programs</td>
+	<td style="text-align:left;">6</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="levelzerooccupations">Level Zero Occupations</h3>
+
+<p>In the Neolithic societies of Terra A.D. there are only two possible 0 level occupations — Hunters and Gatherers.</p>
+
+<h4 id="table1-2%3Acharacteroccupations">Table 1&#8211;2: Character Occupations</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">d100</th>
+	<th style="text-align:left;">Profession</th>
+	<th style="text-align:left;">Starting Equipment</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">01&#8211;50</td>
+	<td style="text-align:left;">Hunter</td>
+	<td style="text-align:left;">Wood spear (1d5)</td>
+</tr>
+<tr>
+	<td style="text-align:left;">51&#8211;100</td>
+	<td style="text-align:left;">Gatherer</td>
+	<td style="text-align:left;">Large leather sack</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="birthsign">Birth Sign</h3>
+
+<p>Each character rolls their birth sign at character creation to determine that character’s “lucky roll.” If a character’s ability scores are such that they have a Luck ability modifier, then that modifier becomes the character’s inherit lucky roll as determined below. Note that as a character’s Luck score changes (either up or down), the lucky roll does not change over time.</p>
+
+<h4 id="table1-3%3Abirthsign">Table 1&#8211;3: Birth Sign</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">d30</th>
+	<th style="text-align:left;">Birth Sign and Lucky Roll</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">1</td>
+	<td style="text-align:left;">Nuclear Winter: All attack rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">2</td>
+	<td style="text-align:left;">The Roxen: All melee attack rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">3</td>
+	<td style="text-align:left;">The Triffid: Missile fire attack rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">4</td>
+	<td style="text-align:left;">The Beast: Unarmed attack rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">5</td>
+	<td style="text-align:left;">The Millisteed: Mounted attack rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">6</td>
+	<td style="text-align:left;">The Apocalypse: All damage rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">7</td>
+	<td style="text-align:left;">Ragnarok: Melee damage rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">8</td>
+	<td style="text-align:left;">Revelations: Missile fire damage rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">9</td>
+	<td style="text-align:left;">The Hunter: Attack and damage rolls for 0-level starting weapon</td>
+</tr>
+<tr>
+	<td style="text-align:left;">10</td>
+	<td style="text-align:left;">The Gatherer: Stealth/hiding rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">11</td>
+	<td style="text-align:left;">The Outsider: Find/disable traps</td>
+</tr>
+<tr>
+	<td style="text-align:left;">12</td>
+	<td style="text-align:left;">The Sensor: Find secret doors</td>
+</tr>
+<tr>
+	<td style="text-align:left;">13</td>
+	<td style="text-align:left;">The Genomorph: Mutation checks</td>
+</tr>
+<tr>
+	<td style="text-align:left;">14</td>
+	<td style="text-align:left;">The Alpha Striker: Mutation damage rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">15</td>
+	<td style="text-align:left;">The Programmer: AI recognition rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">16</td>
+	<td style="text-align:left;">The Hypospray: Healing rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">17</td>
+	<td style="text-align:left;">The Survivor: All saving throws</td>
+</tr>
+<tr>
+	<td style="text-align:left;">18</td>
+	<td style="text-align:left;">The Multitool: Escape traps</td>
+</tr>
+<tr>
+	<td style="text-align:left;">19</td>
+	<td style="text-align:left;">The Healer: Saving throw versus poisons</td>
+</tr>
+<tr>
+	<td style="text-align:left;">20</td>
+	<td style="text-align:left;">The Scientist: Reflex saving throws</td>
+</tr>
+<tr>
+	<td style="text-align:left;">21</td>
+	<td style="text-align:left;">The Glow: Fortitude saving throws</td>
+</tr>
+<tr>
+	<td style="text-align:left;">22</td>
+	<td style="text-align:left;">The Esper: Willpower saving throws</td>
+</tr>
+<tr>
+	<td style="text-align:left;">24</td>
+	<td style="text-align:left;">The Bunker: Armor class</td>
+</tr>
+<tr>
+	<td style="text-align:left;">25</td>
+	<td style="text-align:left;">The CPU: Initiative</td>
+</tr>
+<tr>
+	<td style="text-align:left;">26</td>
+	<td style="text-align:left;">The Ecobot: Hit points (applies at each level)</td>
+</tr>
+<tr>
+	<td style="text-align:left;">27</td>
+	<td style="text-align:left;">The War-Bot: Critical hit tables (double Luck modifier on critical hits)</td>
+</tr>
+<tr>
+	<td style="text-align:left;">28</td>
+	<td style="text-align:left;">The Unchanging: Defect rolls</td>
+</tr>
+<tr>
+	<td style="text-align:left;">29</td>
+	<td style="text-align:left;">The Backup Disk: Fumbles (double Luck modifier on fumbles)</td>
+</tr>
+<tr>
+	<td style="text-align:left;">30</td>
+	<td style="text-align:left;">The Accelerant: Speed (each +1/&#8211;1 = +5&#8216;/&#8211;5&#8217; on speed)</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="beginningequipment">Beginning Equipment</h3>
+
+<p>Each 0-level character is automatically equipped with a flint dagger (1d4) and a waterskin. Additionally, the new character is entitled to roll twice on Table 1&#8211;4 for an additional piece of beginning equipment. Characters may, of course, barter or trade for additional goods before leaving on the Rite of Passage. To barter with fellow tribesmen, the villages of the characters all trade goods using an abstract concept of ancient origin by assigning trade values in terms of “creds”. Creds are simply a non-material value system used to barter goods, and not an actual physical currency.</p>
+
+<h4 id="table1-4%3Aadditionalbeginningequipment">Table 1&#8211;4: Additional Beginning Equipment</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">d100</th>
+	<th style="text-align:left;">Result</th>
+	<th style="text-align:left;">Damage/AC Bonus</th>
+	<th style="text-align:left;">Trade Value in Creds</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">01&#8211;04</td>
+	<td style="text-align:left;">Blowgun and 12 darts</td>
+	<td style="text-align:left;">1d3</td>
+	<td style="text-align:left;">6</td>
+</tr>
+<tr>
+	<td style="text-align:left;">05&#8211;09</td>
+	<td style="text-align:left;">Bone club</td>
+	<td style="text-align:left;">1d6</td>
+	<td style="text-align:left;">3</td>
+</tr>
+<tr>
+	<td style="text-align:left;">10&#8211;13</td>
+	<td style="text-align:left;">Bow and 12 arrows</td>
+	<td style="text-align:left;">1d6</td>
+	<td style="text-align:left;">30</td>
+</tr>
+<tr>
+	<td style="text-align:left;">14&#8211;18</td>
+	<td style="text-align:left;">Flint dagger</td>
+	<td style="text-align:left;">1d4</td>
+	<td style="text-align:left;">3</td>
+</tr>
+<tr>
+	<td style="text-align:left;">19&#8211;21</td>
+	<td style="text-align:left;">Leather sling</td>
+	<td style="text-align:left;">1d4</td>
+	<td style="text-align:left;">2</td>
+</tr>
+<tr>
+	<td style="text-align:left;">22&#8211;25</td>
+	<td style="text-align:left;">Stone axe</td>
+	<td style="text-align:left;">1d7</td>
+	<td style="text-align:left;">7</td>
+</tr>
+<tr>
+	<td style="text-align:left;">26&#8211;29</td>
+	<td style="text-align:left;">Stone-tipped spear</td>
+	<td style="text-align:left;">1d6</td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">30&#8211;33</td>
+	<td style="text-align:left;">Wooden club</td>
+	<td style="text-align:left;">1d5</td>
+	<td style="text-align:left;">2</td>
+</tr>
+<tr>
+	<td style="text-align:left;">34&#8211;37</td>
+	<td style="text-align:left;">Fur cloak</td>
+	<td style="text-align:left;">+2 AC</td>
+	<td style="text-align:left;">20</td>
+</tr>
+<tr>
+	<td style="text-align:left;">38&#8211;41</td>
+	<td style="text-align:left;">Hide armor</td>
+	<td style="text-align:left;">+3 AC</td>
+	<td style="text-align:left;">30</td>
+</tr>
+<tr>
+	<td style="text-align:left;">42&#8211;45</td>
+	<td style="text-align:left;">Leather shield</td>
+	<td style="text-align:left;">+1 AC</td>
+	<td style="text-align:left;">10</td>
+</tr>
+<tr>
+	<td style="text-align:left;">46&#8211;49</td>
+	<td style="text-align:left;">Flint fire starter</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">50&#8211;53</td>
+	<td style="text-align:left;">Hemp rope, 50 ft.</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">5</td>
+</tr>
+<tr>
+	<td style="text-align:left;">54&#8211;57</td>
+	<td style="text-align:left;">Jerked roxen meat</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">2</td>
+</tr>
+<tr>
+	<td style="text-align:left;">58&#8211;61</td>
+	<td style="text-align:left;">Leather rucksack</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">10</td>
+</tr>
+<tr>
+	<td style="text-align:left;">62&#8211;65</td>
+	<td style="text-align:left;">Torch (x3)</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">3</td>
+</tr>
+<tr>
+	<td style="text-align:left;">66&#8211;69</td>
+	<td style="text-align:left;">Antler hood</td>
+	<td style="text-align:left;">+1 AC</td>
+	<td style="text-align:left;">10</td>
+</tr>
+<tr>
+	<td style="text-align:left;">70&#8211;73</td>
+	<td style="text-align:left;">Bone necklace</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">15</td>
+</tr>
+<tr>
+	<td style="text-align:left;">74&#8211;77</td>
+	<td style="text-align:left;">Conch shell trumpet</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">25</td>
+</tr>
+<tr>
+	<td style="text-align:left;">78&#8211;81</td>
+	<td style="text-align:left;">Magic sticky rock (lodestone)</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">30</td>
+</tr>
+<tr>
+	<td style="text-align:left;">82&#8211;85</td>
+	<td style="text-align:left;">Paints and dyes</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">35</td>
+</tr>
+<tr>
+	<td style="text-align:left;">86&#8211;89</td>
+	<td style="text-align:left;">Bag of sea shells</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">40</td>
+</tr>
+<tr>
+	<td style="text-align:left;">90&#8211;93</td>
+	<td style="text-align:left;">Small shiny thing (non-working artifact)</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">50</td>
+</tr>
+<tr>
+	<td style="text-align:left;">94&#8211;97</td>
+	<td style="text-align:left;">Large shiny thing (non-working artifact)</td>
+	<td style="text-align:left;"></td>
+	<td style="text-align:left;">100</td>
+</tr>
+<tr>
+	<td style="text-align:left;">98&#8211;00</td>
+	<td style="text-align:left;">A telepathic rat (pet)</td>
+	<td style="text-align:left;">1d3 attack</td>
+	<td style="text-align:left;">250</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="savingthrows">Saving Throws</h3>
+
+<p>The MCC RPG uses threesaving throws: Fortitude, Reflex, and Willpower. To make a saving throw, a character rolls 1d20, adds his modifier(s), and compares the result to a target number (DC). If the result is equal to or greater than the DC, the save is made. If not, dire effects may ensue.</p>
+
+<p>Fortitude represents resistance to physical threats, such as radiation, poisons, gasses, acids, and stunning damage. A character’s Stamina modifier influences his Fort save.</p>
+
+<p>Reflex represents resistance to reaction-based threats, such as ducking a swinging robot arm, leaping aside as a ruin collapses, and twisting away from a mutant’s electrical blast. A character’s Agility modifier influences his Ref save.</p>
+
+<p>Willpower represents resistance to mind-influencing threats, such as mutations that charm or control, psychic effects that cause sleep or hypnosis, and mental domination. A character’s Personality modifier influences his Will save.</p>
+
+<p>All 0-level characters start with a base modifier of +0 to all saving throws, which is subsequently influenced by their ability modifiers. As characters gain class levels, their saving throws increase.</p>
+
+<h3 id="languages">Languages</h3>
+
+<p>All sentient characters know the verbal form of Nu-Speak, a mongrel descendant of the last universal language spoken by the Ancient Ones. Beginning characters are otherwise illiterate and have no written language.</p>
+
+<p>For each point of Intelligence modifier, characters know one additional language associated with their Archaic Alignment, if any. These additional languages are established at 0 level. Manimals and plantients with Int 8+ automatically know the dialect languages of their general genotype as well.</p>
+
+<h3 id="genotypes">Genotypes</h3>
+
+<p>Roll on the genotype table to determine character genotype, then on the appropriate sub-table as applicable. Level 0 mutants, manimals, and plantients begin the game with only cosmetic mutations (see Table 1&#8211;6). Additional mutations for these classes manifest at 1st-level, and are rolled for separately at that time.</p>
+
+<h4 id="table1-5%3Acharactergenotype">Table 1&#8211;5: Character Genotype</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">d100</th>
+	<th style="text-align:left;">Genotype</th>
+	<th style="text-align:left;">Go to Sub-Type</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">01&#8211;32</td>
+	<td style="text-align:left;">Pure Strain Human</td>
+	<td style="text-align:left;">N/A</td>
+</tr>
+<tr>
+	<td style="text-align:left;">33&#8211;66</td>
+	<td style="text-align:left;">Mutant</td>
+	<td style="text-align:left;">Table 1&#8211;6</td>
+</tr>
+<tr>
+	<td style="text-align:left;">67&#8211;88</td>
+	<td style="text-align:left;">Manimal</td>
+	<td style="text-align:left;">Table 1&#8211;7</td>
+</tr>
+<tr>
+	<td style="text-align:left;">89&#8211;00</td>
+	<td style="text-align:left;">Plantient</td>
+	<td style="text-align:left;">Table 1&#8211;8</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="table1-6%3Amutantappearance">Table 1&#8211;6: Mutant Appearance</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">d30</th>
+	<th style="text-align:left;">Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">1&#8211;5</td>
+	<td style="text-align:left;"><strong>Skin color</strong>: Roll 1d6 (1) bright red; (2) snow white; (3) lemon yellow; (4) purple; (5) green; (6) translucent.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">6&#8211;9</td>
+	<td style="text-align:left;"><strong>Skin texture</strong>: Roll 1d6 (1) is mottled; (2) is reptilian; (3) is chitinous; (4) is rocky; (5) is metallic; (6) is invisible.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">10&#8211;12</td>
+	<td style="text-align:left;"><strong>Eyes</strong>: Roll 1d6 (1) have slitted pupils; (2) have no pupils; (3) glow in the dark; (4) are a single eye; (5) have compound insect eyes; (6) are covered by semi-transparent skin.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">13&#8211;15</td>
+	<td style="text-align:left;"><strong>Mouth</strong>: Roll 1d6 (1) is a fanged; (2) is a featureless slit; (3) is a beak or bill; (4) is insectoid; (5) is located in belly; (6) absent, replaced by porous skin.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">16&#8211;17</td>
+	<td style="text-align:left;"><strong>Head</strong>: Roll 1d6 (1) is larger than normal; (2) is smaller than normal; (3) has craggy brow and ridged skull; (4) has small horns; (5) has antennae; (6) retreats into body.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">18&#8211;19</td>
+	<td style="text-align:left;"><strong>Hair</strong>: Roll 1d6 (1) stands on end; (2) grows into a lion’s mane; (3) grows over entire body; (4) drips oil; (5) is made of organic metal; (6) is comprised of small leaves.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">20&#8211;22</td>
+	<td style="text-align:left;"><strong>Hands</strong>: Roll 1d6 (1) have no nails; (2) have only three fingers; (3) have six fingers; (4) are prehensile claws; (5) are comprised of tentacles; (6) absent, replaced with tentacle fingers.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">23&#8211;24</td>
+	<td style="text-align:left;"><strong>Feet</strong>: Roll 1d6 (1) are overlarge and padded; (2) have 12 toes; (3) have Claws; (4) are bird talons; (5) are hooves; (6) absent, replaced with cilia clumps.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">25&#8211;27</td>
+	<td style="text-align:left;"><strong>Body</strong>: Roll 1d6 (1) has a tail; (2) has 1d4 arms; (3) has 1d4 legs; (4) has ridged back; (5) has symbiotic twin in stomach; (6) is segmented like a worm.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">28</td>
+	<td style="text-align:left;"><strong>Form</strong>: Roll 1d6 (1) is tripedal; (2) is quadrapedal; (3) is serpentine; (4) is insectoid; (5) is globular; (6) is a condensed ball of plasma that must inhabit clothes to maintain form.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">29&#8211;30</td>
+	<td style="text-align:left;">Roll twice on table.</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="table1-7%3Amanimalsub-type">Table 1&#8211;7: Manimal Sub-Type</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">d30</th>
+	<th style="text-align:left;">Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">1&#8211;4</td>
+	<td style="text-align:left;"><strong>Primate</strong>: Roll 1d4 (1) gorilla; (2) chimpanzee; (3) orangutan; (4) gibbon.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">5&#8211;8</td>
+	<td style="text-align:left;"><strong>Canine</strong>: Roll 1d4 (1) dog; (2) wolf; (3) coyote; (4) fox.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">9&#8211;11</td>
+	<td style="text-align:left;"><strong>Feline</strong>: Roll 1d4 (1) lion; (2) tiger; (3) cheetah; (4) panther.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">12&#8211;13</td>
+	<td style="text-align:left;"><strong>Ursine</strong>: Roll 1d3 (1) brown bear; (2) grizzly bear; (3) polar bear.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">14&#8211;16</td>
+	<td style="text-align:left;"><strong>Bovine</strong>: Roll 1d5 (1) cow; (2) bison; (3) buffalo; (4) antelope, (5) yak.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">17&#8211;18</td>
+	<td style="text-align:left;"><strong>Suidae</strong>: Roll 1d3 (1) pig; (2) hog; (3) warthog.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">19&#8211;20</td>
+	<td style="text-align:left;"><strong>Rodentia</strong>: Roll 1d6 (1) mouse; (2) rat; (3) squirrel; (4) porcupine; (5) beaver; (6) rabbit.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">21&#8211;22</td>
+	<td style="text-align:left;"><strong>Amphibia</strong>: Roll 1d3 (1) frog; (2) toad; (3) salamander.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">23&#8211;24</td>
+	<td style="text-align:left;"><strong>Avian</strong>: Roll 1d6 (1) hawk; (2) eagle; (3) crow; (4) owl; (5) vulture; (6) seagull.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">25&#8211;27</td>
+	<td style="text-align:left;"><strong>Insecta</strong>: Roll 1d6 (1) roach; (2) ant; (3) fly; (4) grasshopper; (5) beetle; (6) moth.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">28&#8211;30</td>
+	<td style="text-align:left;">Roll again on this table, then roll on Table 1&#8211;6 Mutant Appearance.</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="table1-8%3Aplantientsub-type">Table 1&#8211;8: Plantient Sub-Type</h4>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;">d30</th>
+	<th style="text-align:left;">Result</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;">1&#8211;5</td>
+	<td style="text-align:left;">Deciduous: Roll 1d5 (1) maple; (2) oak; (3) sycamore; (4) buckeye, (5) chestnut.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">6&#8211;9</td>
+	<td style="text-align:left;">Conifer: Roll 1d6 (1) cedar; (2) larch; (3) fir; (4) pine; (5) spruce; (6) yew.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">10&#8211;11</td>
+	<td style="text-align:left;">Fruit-Bearing: Roll 1d6 (1) apple; (2) pear; (3) peach; (4) cherry; (5) plum; (6) banana.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">12&#8211;13</td>
+	<td style="text-align:left;">Fern: Roll 1d3 (1) horsetail; (2) whisk fern; (3) marratoid.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">14&#8211;16</td>
+	<td style="text-align:left;">Vine: Roll 1d6 (1) ivy; (2) honeysuckle; (3) arrowroot; (4) morning glory; (5) grape; (6) sweet pea.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">17&#8211;19</td>
+	<td style="text-align:left;">Shrub: Roll 1d6 (1) sagebrush; (2) hibiscus; (3) blackberry; (4) huckleberry; (5) sumac; (6) yucca.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">20&#8211;22</td>
+	<td style="text-align:left;">Tropical: Roll 1d4 (1) palm; (2) coconut; (3) bamboo; (4) teak.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">23&#8211;24</td>
+	<td style="text-align:left;">Cacti: Roll 1d4 (1) barrel; (2) beavertail; (3) aloe; (4) prickly pear.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">25&#8211;27</td>
+	<td style="text-align:left;">Mosses: Roll 1d3 (1) green moss; (2) liverwort; (3) hornwort.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">28&#8211;29</td>
+	<td style="text-align:left;">Fungi: Roll 1d4 (1) mushroom; (2) toadstool; (3) fungus; (4) mold.</td>
+</tr>
+<tr>
+	<td style="text-align:left;">30</td>
+	<td style="text-align:left;">Roll again on this table, then roll on Table 1&#8211;6 Mutant Appearance.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="archaicalignments">Archaic Alignments</h3>
+
+<p>All 0 level genotypes may begin as members of The Clan of Cog. Optionally, pure strain humans may instead choose to be members of The Curators. Mutants may opt to become members of the Children of the Glow. Manimals may follow The Chosen Zuu, while plantients may choose to be members of The Atomic Equinox instead. See the sidebar and Chapter 5: Archaic Alignments for more info.</p>
+
+<h3 id="theriteofpassage">The Rite Of Passage</h3>
+
+<p>All characters begin as 0-level members of their tribe or village with an occupation of “hunter” or “gatherer.” Until undergoing the Rite of Passage, they are considered sub-adults by their kinsmen (no matter how chronologically old). The details of the rite vary from tribe to tribe, but typically involve going out into the wilderness in small groups, surviving for 7&#8211;10 days, and returning to the tribe with an artifact of the ancients in working order. For mutants, manimals, and plantients, it is also expected that the stresses of undergoing the Rite of Passage will also trigger the “Metagenesis,” i.e., the blossoming and full expression of their inherited mutant DNA.</p>
+
+<p>While it is considered a symbol of great status among the tribes for Rite of Passage participants to brave the hothouse jungles and radioactive deserts of Terra A.D. with no more than a flint dagger, a water skin, and a few days of jerked roxen meat, there is no limit on what may be taken along and no shame in doing so. Dead members of a tribe, no matter how young or inexperienced, are of little use to anyone, so participants may take with them any items that can be scavenged together, be it their deceased uncle’s stone axe, the odd piece of starting equipment, or items for which they have traded.</p>
+
+<h3 id="thelifeofaseeker">The Life Of A Seeker</h3>
+
+<p>Since status as an adult within a tribe is primarily deter- mined by the quality and type of artifact that is returned to the tribal chieftains, it is likely that very successful survivors of the Rite of Passage will be assigned the plumb role of tribal “Seeker.” While there is no shame in returning from the rites with a “working” ancient beverage container or small scrap of duralloy, those who do so tend to be later given the relatively mundane adult tasks of simply continuing to do hunting and gathering for the tribe. The exceptional character who returns with an actual working (and therefore highly useful) artifact of the ancients will find themselves rightly assigned the job of Seeker – an elite group of tribesmen assigned to roam the wilderness and retrieve valuable lost technology for the benefit of their tribe. Since a Seeker may select anyone he deems useful to be a part of his or her Seeker Team, it is thus possible for all player characters who survive the Rite of Passage to eventually become Seekers.</p>
+<!-- ##END MARKED WRAPPER## -->
+    </div>
+</body>
+</html>
