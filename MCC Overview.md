@@ -31,14 +31,6 @@ There are also the rare few among these sentient species that have joined togeth
 Rarest of all, the world of Terra A.D. is yet home to a small number of artificial lifeforms that remain from the pre-disaster era. These beings include androids, robots, holograms, and AIs (Artificial Intelligences). These beings range in intelligence and abilities from the simple minded and narrowly skilled, to the highly intelligent and fully sentient, to those that are considered patrons and gods. Sometimes simply referred to as “smart metal,” all of these beings are considered dangerous and unpredictable. With the right know-how and artifacts, some may be tamed and retained as servants, while the greatest of them may decide in turn that you are just barely worthy to become worshipers of their ancient might and glory.
 
 
-## THE CORE MECHANIC
-
-* The core mechanic in the Mutant Crawl Classics Role Playing Game is the d20 roll. You will frequently be asked to roll 1d20 and add or subtract modifiers. The goal is to roll high and beat a Difficulty Class, or DC. Sometimes the DC will have specific terms, such as an Armor Class, or AC, which is a combat variety of a DC. A higher DC is more difficult to beat, and a better-armored creature has a higher AC.
-* If you roll equal to or higher than the DC (or AC), you succeed. Otherwise, you fail.
-* A roll of 1 is an automatic miss and often results in a fumbling failure of some kind.
-* A roll of 20 is an automatic hit and often results in a critical success of some kind.
-* Occasionally a character may roll a die other than 1d20 when acting. 1d16, 1d24, and even 1d30 are used for weaker or stronger character classes.
-
 <!--BREAK-->
 ## CHARACTER CREATION
 
@@ -100,7 +92,6 @@ Ability Score | Modifier | Max Tech Level    | Max Wetware Programs | Max Wetwar
 23            | +5       | 6                 | +5 programs          | 5
 24            | +6       | 7                 | +6 programs          | 6
 
-<!--BREAK-->
 ### Level Zero Occupations
 
 In the Neolithic societies of Terra A.D. there are only two possible 0 level occupations — Hunters and Gatherers.
@@ -112,6 +103,7 @@ d100   | Profession | Starting Equipment
 01-50  | Hunter     | Wood spear (1d5)
 51-100 | Gatherer   | Large leather sack
 
+<!--BREAK-->
 ### Birth Sign
 
 Each character rolls their birth sign at character creation to determine that character’s “lucky roll.” If a character’s ability scores are such that they have a Luck ability modifier, then that modifier becomes the character’s inherit lucky roll as determined below. Note that as a character’s Luck score changes (either up or down), the lucky roll does not change over time.
@@ -266,6 +258,7 @@ d30   | Result
 28-29 | Fungi: Roll 1d4 (1) mushroom; (2) toadstool; (3) fungus; (4) mold.
 30    | Roll again on this table, then roll on Table 1-6 Mutant Appearance.
 
+<!--BREAK-->
 ### Archaic Alignments
 
 All 0 level genotypes may begin as members of The Clan of Cog. Optionally, pure strain humans may instead choose to be members of The Curators. Mutants may opt to become members of the Children of the Glow. Manimals may follow The Chosen Zuu, while plantients may choose to be members of The Atomic Equinox instead. See the sidebar and Chapter 5: Archaic Alignments for more info.
