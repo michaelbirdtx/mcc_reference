@@ -14,7 +14,7 @@ What few members of mankind that survived the Great Disaster meanwhile descended
 
 It is generally accepted among the denizens of Terra A.D. that there once existed a legendary race of unknown type that ruled and ordered the world with an arcane force known as technology. While nearly every sentient species makes an apocryphal claim to be directly descendant of these protean techno-wizards of millennia past, the evidence for their existence is inarguable. Though long since passed out of all memory, the imperishable artifacts and ruined haunts of the Ancient Ones were manufactured of such incomprehensibly durable substances and with such super scientific know-how as to be virtually immune to the ravages of passing centuries. Many such devices and places may yet be discovered relatively intact by those brave enough to plumb the taboo lands of Terra A.D.
 
-
+<!--BREAK-->
 ## TERRA A.D. CLIMATE AND ECOLOGY
 
 The world of Terra A.D. is that of tropical hothouse climate from pole-to-pole. The sun is red and bloated, and the skies are an emerald blue-green. Dense jungles and mile-tall trees dominate the planet. This is a world still struggling to heal itself fully from a disaster now many millennia in the past, and the planet seems to have chosen to do so by undergoing an explosive evolutionary radiation of its native life forms. Some wounded lands still persist – the radioactive glow deserts and the battered and volcanic crater countries – but where there is life, there is an overabundance of it. Mega-fauna are the rule rather than the exception.
@@ -39,6 +39,7 @@ Rarest of all, the world of Terra A.D. is yet home to a small number of artifici
 * A roll of 20 is an automatic hit and often results in a critical success of some kind.
 * Occasionally a character may roll a die other than 1d20 when acting. 1d16, 1d24, and even 1d30 are used for weaker or stronger character classes.
 
+<!--BREAK-->
 ## CHARACTER CREATION
 
 Game play in the Mutant Crawl Classics Role Playing Game starts at 0 level: untrained sub-adult tribesmen. Most of these characters will die while undergoing the Rite of Passage. We highly suggest each player roll up multiple 0-level characters – at least three, possibly more. Don’t get attached. Characters that survive their Rite of Passage then become recognized as adult members of their tribe, choose classes, and join a Seeker team.
@@ -71,6 +72,7 @@ __Intelligence__: Ability to discern information, retain knowl- edge, and assess
 
 __Luck__: “Right place, right time;” favor of the gods, good fortune, or hard-to-define talent.
 
+<!--BREAK-->
 #### Table 1-1: Ability Score Modifiers
 
 Ability Score | Modifier | Max Tech Level    | Max Wetware Programs | Max Wetware Program Level
@@ -98,6 +100,7 @@ Ability Score | Modifier | Max Tech Level    | Max Wetware Programs | Max Wetwar
 23            | +5       | 6                 | +5 programs          | 5
 24            | +6       | 7                 | +6 programs          | 6
 
+<!--BREAK-->
 ### Level Zero Occupations
 
 In the Neolithic societies of Terra A.D. there are only two possible 0 level occupations — Hunters and Gatherers.
@@ -147,6 +150,7 @@ d30 | Birth Sign and Lucky Roll
 29  | The Backup Disk: Fumbles (double Luck modifier on fumbles)
 30  | The Accelerant: Speed (each +1/-1 = +5'/-5' on speed)
 
+<!--BREAK-->
 ### Beginning Equipment
 
 Each 0-level character is automatically equipped with a flint dagger (1d4) and a waterskin. Additionally, the new character is entitled to roll twice on Table 1-4 for an additional piece of beginning equipment. Characters may, of course, barter or trade for additional goods before leaving on the Rite of Passage. To barter with fellow tribesmen, the villages of the characters all trade goods using an abstract concept of ancient origin by assigning trade values in terms of “creds”. Creds are simply a non-material value system used to barter goods, and not an actual physical currency.
@@ -181,6 +185,7 @@ d100  | Result                                   | Damage/AC Bonus | Trade Value
 94-97 | Large shiny thing (non-working artifact) |                 | 100
 98-00 | A telepathic rat (pet)                   | 1d3 attack      | 250
 
+<!--BREAK-->
 ### Saving Throws
 
 The MCC RPG uses threesaving throws: Fortitude, Reflex, and Willpower. To make a saving throw, a character rolls 1d20, adds his modifier(s), and compares the result to a target number (DC). If the result is equal to or greater than the DC, the save is made. If not, dire effects may ensue.
@@ -199,6 +204,7 @@ All sentient characters know the verbal form of Nu-Speak, a mongrel descendant o
 
 For each point of Intelligence modifier, characters know one additional language associated with their Archaic Alignment, if any. These additional languages are established at 0 level. Manimals and plantients with Int 8+ automatically know the dialect languages of their general genotype as well.
 
+<!--BREAK-->
 ### Genotypes
 
 Roll on the genotype table to determine character genotype, then on the appropriate sub-table as applicable. Level 0 mutants, manimals, and plantients begin the game with only cosmetic mutations (see Table 1-6). Additional mutations for these classes manifest at 1st-level, and are rolled for separately at that time.
