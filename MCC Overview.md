@@ -1,7 +1,7 @@
-# MUTANT CRAWL CLASSICS: OVERVIEW
+# Mutant Crawl Classics: Overview
 
 
-## THE SETTING: TERRA A.D.
+## The Setting: Terra A.D.
 
 The characters in the Mutant Crawl Classics RPG live in a primitive world dominated by the bizarre side-effects of an ancient holocaust known only as the Great Disaster. Millennia after this cataclysmic extinction event, the world — now known as Terra A.D. (After Disaster) — has regrown into a lush tropical wilderness. The lifeforms that survive and flourish in Terra A.D. did so because natural selection rewarded their ancestors for possessing either very plastic or very hardy genomes. Plants and animals with wild and unstable mutations permeate the ecosystem and the food chain. Though some species have settled down into relatively stable body plans and are capable of reproducing true to form, there is still the chance in any given birth of a new mutation arising.
 
@@ -10,19 +10,19 @@ Of these mutations, the advent of intelligence and sentience are by far the most
 What few members of mankind that survived the Great Disaster meanwhile descended into barbarism and savagery, and eventually split into two separate species: pure strain humans (PSH) and mutants. Rather than surviving the Great Disaster by virtue of constantly mutating genetics, the genome of pure strain humans became hardened against radiation and other mutagenic environmental effects, leaving them an especially hardy and intelligent race.
 
 
-## THE ANCIENT ONES
+## The Ancient Ones
 
 It is generally accepted among the denizens of Terra A.D. that there once existed a legendary race of unknown type that ruled and ordered the world with an arcane force known as technology. While nearly every sentient species makes an apocryphal claim to be directly descendant of these protean techno-wizards of millennia past, the evidence for their existence is inarguable. Though long since passed out of all memory, the imperishable artifacts and ruined haunts of the Ancient Ones were manufactured of such incomprehensibly durable substances and with such super scientific know-how as to be virtually immune to the ravages of passing centuries. Many such devices and places may yet be discovered relatively intact by those brave enough to plumb the taboo lands of Terra A.D.
 
-<!--BREAK-->
-## TERRA A.D. CLIMATE AND ECOLOGY
+
+## Terra A.D. Climate and Ecology
 
 The world of Terra A.D. is that of tropical hothouse climate from pole-to-pole. The sun is red and bloated, and the skies are an emerald blue-green. Dense jungles and mile-tall trees dominate the planet. This is a world still struggling to heal itself fully from a disaster now many millennia in the past, and the planet seems to have chosen to do so by undergoing an explosive evolutionary radiation of its native life forms. Some wounded lands still persist – the radioactive glow deserts and the battered and volcanic crater countries – but where there is life, there is an overabundance of it. Mega-fauna are the rule rather than the exception.
 
 The weather systems of Terra A.D. are generally hot and often rainy, with more typical thunderstorms punctuated by occasional glow storms and meteor showers. When the skies are clear, one can clearly see that there is no moon in the sky of Terra A.D., only an omnipresent “Sky Arc” — a graceful banded curve of blue-white light that visibly glows both day and night. Is it the crushed remnants of a shattered moon, or an accretion disk from which a moon has not yet formed? None can say, but legend suggests that the Ancient Ones quite possibly went there to live when their terrestrial world was destroyed. Small moving lights can still be seen in the night time skies that are thought to be the chariots of those long lost gods.
 
 
-## TERRA A.D. INHABITANTS AND CREATURES
+## Terra A.D. Inhabitants And Creatures
 
 The four dominant types of sentient species in Terra A.D. (pure strain humans, mutants, manimals, and plantients) are only so because they benefit from the organizing principles of a rudimentary Stone Age level of civilization. Even a primitive tribal social organization allows them to compete successfully in a world in which a great number of mutated plants and animals also possess sentience.
 
@@ -31,8 +31,17 @@ There are also the rare few among these sentient species that have joined togeth
 Rarest of all, the world of Terra A.D. is yet home to a small number of artificial lifeforms that remain from the pre-disaster era. These beings include androids, robots, holograms, and AIs (Artificial Intelligences). These beings range in intelligence and abilities from the simple minded and narrowly skilled, to the highly intelligent and fully sentient, to those that are considered patrons and gods. Sometimes simply referred to as “smart metal,” all of these beings are considered dangerous and unpredictable. With the right know-how and artifacts, some may be tamed and retained as servants, while the greatest of them may decide in turn that you are just barely worthy to become worshipers of their ancient might and glory.
 
 
+## The Core Mechanic
+
+* The core mechanic in the Mutant Crawl Classics Role Playing Game is the d20 roll. You will frequently be asked to roll 1d20 and add or subtract modifiers. The goal is to roll high and beat a Difficulty Class, or DC. Sometimes the DC will have specific terms, such as an Armor Class, or AC, which is a combat variety of a DC. A higher DC is more difficult to beat, and a better-armored creature has a higher AC.
+* If you roll equal to or higher than the DC (or AC), you succeed. Otherwise, you fail.
+* A roll of 1 is an automatic miss and often results in a fumbling failure of some kind.
+* A roll of 20 is an automatic hit and often results in a critical success of some kind.
+* Occasionally a character may roll a die other than 1d20 when acting. 1d16, 1d24, and even 1d30 are used for weaker or stronger character classes.
+
+
 <!--BREAK-->
-## CHARACTER CREATION
+## Character Creation
 
 Game play in the Mutant Crawl Classics Role Playing Game starts at 0 level: untrained sub-adult tribesmen. Most of these characters will die while undergoing the Rite of Passage. We highly suggest each player roll up multiple 0-level characters – at least three, possibly more. Don’t get attached. Characters that survive their Rite of Passage then become recognized as adult members of their tribe, choose classes, and join a Seeker team.
 
@@ -48,7 +57,7 @@ This game utilizes polyhedrons of unusual shapes. Character creation in MCC RPG 
 8. Determine genotype appearance or sub-type, if any (see Tables 1-6 through 1-8).
 9. Choose an Archaic Alignment.
 
-### ABILITY SCORES
+### Ability Scores
 
 Roll 3d6 in order for these abilities: Strength, Agility, Stamina, Personality, Intelligence, and Luck. Adjust ability-derived modifiers as required (see Table 1-1). Though the normal range of ability scores is 3-18, mutations may increase an ability score to a maximum value of 24.
 
@@ -226,6 +235,7 @@ d30   | Result
 28    | __Form__: Roll 1d6 (1) is tripedal; (2) is quadrapedal; (3) is serpentine; (4) is insectoid; (5) is globular; (6) is a condensed ball of plasma that must inhabit clothes to maintain form.
 29-30 | Roll twice on table.
 
+<!--BREAK-->
 #### Table 1-7: Manimal Sub-Type
 
 d30   | Result
